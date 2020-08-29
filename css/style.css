@@ -45,9 +45,15 @@ main {
 
 .logo img {
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 150px;
     height: 82px;
     width: auto;
+}
+
+@media (max-height:900px) {
+    .logo img {
+    margin-top: 10px;
+    }
 }
 
 .search {
@@ -138,7 +144,6 @@ main {
     left: 0;
     bottom: 0;
     min-width: 100%;
-    z-index: 2;
 }
 
 .location {
